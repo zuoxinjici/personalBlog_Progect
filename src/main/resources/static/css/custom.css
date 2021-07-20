@@ -1,0 +1,69 @@
+.c-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.c-footer-text{
+    text-align: center !important;
+}
+.custom_color{
+    color: white !important;
+}
+.c-padded-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.custom-block{
+    display: inline-block !important;
+}
+.c-padded-padded-mini{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.custom-text{
+    letter-spacing: 1px !important;
+    line-height: 1.5 !important;
+}
+.c-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.c-href-black{
+    color: #333 !important;
+}
+.c-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.c-mobile-show{
+    display: none !important;
+}
+.c-padded-lr-responsive{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
+@media screen and (max-width: 768px){
+    .c-mobile-hide{
+        display: none !important;
+    }
+    .c-mobile-show{
+        display: block !important;
+    }
+    .c-padded-lr-responsive{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+body {
+    background-image: url("../images/background.png") !important;
+}
+.c-nav-shadow{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+.c-tb-right{
+    position: relative !important;
+    min-height: 100%;
+}

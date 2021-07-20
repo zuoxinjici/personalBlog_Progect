@@ -1,0 +1,53 @@
+#calendar {
+    border-radius: 4px !important;
+
+    background: grey  !important;
+    margin: 0 auto;
+
+}
+
+#todayTime {
+    text-align: center !important;
+    padding: 5px 0 !important;
+    font-size: 40px !important;
+    color: azure !important;
+}
+
+#todayDate {
+    padding: 5px 0 !important;
+    font-size: 20px !important;
+    color: #ffcf88 !important;
+}
+
+#tools {
+    padding: 5px 0 !important;
+    height: 30px !important;
+    color: azure !important;
+}
+
+#tools .l {
+    float: left !important;
+}
+
+#tools .r {
+    float: right !important;
+}
+
+table {
+    width: 100% !important;
+    color: azure !important;
+}
+
+table th {
+    color: #ffcf88 !important;
+}
+
+table td {
+    text-align: center !important;
+    cursor: default !important;
+}
+
+table td.today {
+    background: #f8a305 !important;
+    color: azure !important;
+}
